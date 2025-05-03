@@ -1,0 +1,27 @@
+=== Bug Report Submitted ===
+Title: "App crashes on clicking 'Submit'"
+Description: "The app crashes whenever I click the submit button after filling the form."
+
+[AI Analysis Results]
+- Severity: High
+- Category: UI / Form Handling
+- Similar past issues: 4 matched
+- Suggested Fix: Review event handler for null pointer exception in SubmitForm()
+
+Bug ID: #BUG-1023
+Status: Open
+Assigned To: Unassigned
+
+--------------------------
+Title: "Login takes too long"
+Description: "User login process takes over 10 seconds to respond."
+
+[AI Analysis Results]
+- Severity: Medium
+- Category: Backend / Authentication
+- Similar past issues: 3 matched
+- Suggested Fix: Optimize database query for user credentials check.
+
+Bug ID: #BUG-1024
+Status: Open
+Assigned To: QA_Team_A
