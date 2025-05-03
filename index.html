@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Bug Tracker</title>
+</head>
+<body>
+    <h2>Submit Bug Report</h2>
+    <form method="post">
+        <textarea name="bug" rows="4" cols="50" placeholder="Describe the bug..."></textarea><br><br>
+        <input type="submit" value="Analyze">
+    </form>
+
+    {% if prediction %}
+    <h3>Predicted Severity: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
